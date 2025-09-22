@@ -1,0 +1,173 @@
+body{
+    font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+}
+.cv_container {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    max-width: 1100px;
+    max-height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cv_left_container {
+    min-width: 250px;
+    background-color: #233A5F;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_cont_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.my_name{
+    padding: 0 15px;
+    font-size: 8px;
+}
+.my_contacts{
+    padding: 0 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.my_contacts > div{
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #233A5F;
+    padding: 1px;
+    font-weight: bold;
+    height: 50px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my_skills{
+    padding: 0 15px;
+}
+.cv_right_container {
+    padding: 0 15px;
+    color: #233A5F;
+}
+.about_me_block{
+    display: flex;
+    flex-direction: column;
+}
+.about_me_block > h2{
+    margin: 0;
+    font-size: 25px;
+}
+.about_me_block_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_me_block_top > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.about_me_content{
+    display: flex;
+}
+.about_me_content > img{
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+.about_me_education_top > h2{
+    margin: 0;
+    font-size: 25px;
+    margin-left: 10px;
+    
+}
+.about_me_education_top{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.education_textcontent > h4{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.my_jobs > h2{
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+.BY_top{
+    display: flex;
+    align-items: center;
+}
+.job_BY > h2,h3{
+    margin: 0;
+}
+.job_BY > h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.job_BY > h3{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.BY_top > img{
+    display: block;
+    height: 45px;
+    margin-right: 15px;
+}
+.marathon_top{
+    display: flex;
+    align-items: center;
+}
+.marathon_top > img{
+    width: 100px;
+    height: 65px;
+    margin-right: 15px;
+}
+.job_marathon > h2{
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.my_projects > h2{
+    text-align: center;
+}
+.projects_content{
+    display: flex;
+    justify-content: space-between;
+}
+.projects_content > div:last-child{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects_content>div:first-child{
+    width: 30%;
+}
+.projects_content > div:last-child > img{
+    width: 100%;
+}
+.projects_content>div:first-child>img {
+    width: 100%;
+}
+.projects_content > div > img{
+    border-radius: 8px;
+}
+.projects_content > div > h3{
+    height: 50px;
+}
