@@ -1,0 +1,26 @@
+@media (max-width:730px){
+    .about_me_content{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+}
+@media (max-width:560px){
+    .about_me_content > div > h4{
+        font-size: 12px;
+        margin-right: 15px;
+        height: fit-content;
+    }
+    .about_me_content{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .cv_left_container{
+        max-width: 50%;
+    }
+    .cv_left_container > img{
+        max-width: 150px;
+    }
+}

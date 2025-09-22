@@ -7,7 +7,7 @@ body{
             "wdth" 100;
 }
 .cv_container {
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); */
     max-width: 1100px;
     max-height: fit-content;
     margin: 0 auto;
@@ -28,7 +28,7 @@ body{
     margin: 0 auto;
     margin-top: 25px;
     border-radius: 8px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); */
 }
 .my_name{
     padding: 0 15px;
@@ -51,7 +51,7 @@ body{
     padding: 1px;
     font-weight: bold;
     height: 50px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,6 +62,7 @@ body{
 .cv_right_container {
     padding: 0 15px;
     color: #233A5F;
+    min-width: 20%;
 }
 .about_me_block{
     display: flex;
@@ -87,7 +88,7 @@ body{
 .about_me_content > img{
     margin-right: 15px;
     border-radius: 8px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); */
 }
 .about_me_education_top > h2{
     margin: 0;
